@@ -17,3 +17,7 @@ export function getPosts() {
       });
   };
 }
+
+export function deletePost() {
+  return { type: "DELETE_POST" };
+}

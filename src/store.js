@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware, compose } from "redux";
-import { reducer } from "./Components/reducers/reducers";
+import { reducer } from "./Components/reducers/reducer";
 import thunk from "redux-thunk";
 import { getPosts } from "./Components/actions/actions";
 
